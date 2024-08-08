@@ -1,7 +1,16 @@
-# Band name generator project
+print("Welcome to the Band Name Generator World.")
 
-print("Welcome to the Band Name Generator.")
-street = input("What's name of the city you grew up in?\n")
+# Asking for user inputs
+street = input("What's the name of the city you grew up in?\n")
 pet = input("What's your pet's name?\n")
-print("Your band name could be " + street + " " + pet)
+subject = input("What was your favorite subject in school?\n")
+concert = input("What's the first concert you ever attended?\n")
+vacation = input("What's your dream vacation destination?\n")
+movie = input("What's your favorite movie of all time?\n")
 
+# Printing the band names
+print("Your band name could be " + street + " " + pet)
+print("Your favorite subject: " + subject)
+print("Your first concert: " + concert)
+print("Your dream vacation: " + vacation)
+print("Favorite movie: " + movie)
